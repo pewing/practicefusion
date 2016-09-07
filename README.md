@@ -13,6 +13,7 @@ So basically my function will take any number of parameters, and return a json o
 
 If I had more time, I would do a few things differently:
 First, more thorough testing.
+
 I wasn't sure if you were looking for just the doctor names, or each doctor object, but that is a very easy change.
 Obviously the seed is pretty simple, but I needed something fast because of the time limit.
 I'm not satisfied with efficiency for sorting through each similarity, so I'd take a better look at it. This is still querying the database each time, as opposed to loading it all in memory (despite my comment to the contrary)
